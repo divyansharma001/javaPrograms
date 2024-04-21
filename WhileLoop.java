@@ -1,3 +1,4 @@
+package Module00;
 import java.util.Scanner;
 
 public class WhileLoop {

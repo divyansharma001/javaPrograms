@@ -1,3 +1,4 @@
+package Module00;
 import java.util.Scanner;
 
 // Take a number as input and print the multiplication table for it
