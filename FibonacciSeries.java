@@ -4,9 +4,20 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
     public static void main(String[] args){
-        System.out.println("Enter the number n: ");
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
+       int a = 0;
+       int b = 1;
+       int c;
+       int terms;
+       System.out.print("Enter the number of terms: ");
+       Scanner input = new Scanner(System.in);
+       terms = input.nextInt();
+
+       for(int i=0; i<=terms; i++){
+        System.out.print(a + " "); //0
+        c=a+b; //1
+        a=b; //1
+        b=c; //1
+       }
         
     }
 }
